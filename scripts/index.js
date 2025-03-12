@@ -33,7 +33,7 @@ const showVideoDetails=(video)=>{
   videodetails.showModal();
   const detailscontainer=document.getElementById('detailscontiner');
   detailscontainer.innerHTML=`
-   <div class="card bg-base-100 image-full shadow-sm">
+  <div class="card bg-base-100 image-full shadow-sm">
   <figure>
     <img
       src="${video.thumbnail}"
@@ -47,6 +47,7 @@ const showVideoDetails=(video)=>{
     </div>
   </div>
 </div>
+  
   `
 }
 // fetch Videos
